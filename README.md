@@ -12,7 +12,7 @@ sudo apt-get install netcat-openbsd tcpdump traceroute mtr
 IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1, jne
 - Ethernet on juhtmetega kohtvõrgu tehnoloogia, mis vastab Elektri- ja Elektroonikainseneride Instituudi standardile
 
-##ip route show
+## ip route show
 ping −c3 8.8.8.8 
 - google üks aadressidest
 - ping on cmd võrguühenduse testimiseks
