@@ -29,8 +29,7 @@ Käsud
  - sudo apt-get update && sudo apt-get upgrade alustuseks (&& käivitab esimese ning seejärel teise käsu)
  - sudo apt-get install netcat-openbsd tcpdump traceroute mtr 
 
-- ip addrs show ethø   
- -- 1
+1. ip addrs show ethø   
 - ip aadressi hankimine
 - Ethernet seadme nimi on harilikult eth0, eth1, eth2, jne.
 IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1, jne
