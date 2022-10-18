@@ -5,7 +5,7 @@
 
  ## HTTP LINUXI KÄSUREAL / From Ping to HTTP
 
- Konspekti kirjutamisel kasuta 
+ Konspekti kirjutamisel kasuta formaate ja käske :
 
 # The largest heading (#)
 ## The second largest heading (##)
@@ -21,6 +21,7 @@ git add
 git commit
 ```
 
+## Cloudshell
 sudo apt-get update && sudo apt-get upgrade alustuseks (&& käivitab esimese ning seejärel teise käsu)
 sudo apt-get install netcat-openbsd tcpdump traceroute mtr 
 
