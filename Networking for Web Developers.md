@@ -56,8 +56,10 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 - en.wikipedia.org 80 on wikipedia server
 - | toru mis ütleb ,et vöta rea esimene osa sõnumist ja saada aadressile
 - nc wikipedia ees ütleb mis aadressile ühendada
-Printf
-- "printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input 
+
+**Printf
+
+"printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input **
 
 6. tcdump -n -c5 -i ethø port 22
 7. traceroute www.udacity.com
