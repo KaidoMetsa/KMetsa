@@ -36,8 +36,8 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 - Ethernet on juhtmetega kohtvõrgu tehnoloogia, mis vastab Elektri- ja Elektroonikainseneride Instituudi standardile
 
 - ip route show
-- ping −c3 8.8.8.8 
-       - google üks aadressidest
+1. ping −c3 8.8.8.8 
+- google üks aadressidest
   -- ping on cmd võrguühenduse testimiseks
   -- -c3 saadab kolm paketti testimiseks
   --sudo apt-get install iputils-ping kui ping ei tööta
