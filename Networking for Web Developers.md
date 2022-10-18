@@ -57,13 +57,23 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 - | toru mis ütleb ,et vöta rea esimene osa sõnumist ja saada aadressile
 - nc wikipedia ees ütleb mis aadressile ühendada
 
-**Printf
+## Printf ja NC
 
 **"printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input**
 
 6. tcdump -n -c5 -i ethø port 22
 7. traceroute www.udacity.com
 8. mtr uidacity.com
+
+## koodi kirjutamisel alljärgnev kood 
+
+| Layer\Valdkond  | Protocol | Concepts |
+| ------------- | ------------- | ------------- |
+| Application | HTTP, SSH  | URLs,Paroolid |
+| Transport | TCP,UDP  | Pordi numbrid,seansid\sessioonid |
+| Internet  | IP, IP aadressid, routes|
+
+
 
 ## koodi kirjutamisel alljärgnev kood 
 
@@ -74,3 +84,5 @@ header("Location: https://www.examplecom/", true, 302);
 exit();
 
 ?>
+
+
