@@ -1,7 +1,7 @@
 # KMetsa
 #Networking for Web Developers
 
-## HTTP LINUXI KÄSUREAL / From Ping to HTTP
+ ## HTTP LINUXI KÄSUREAL / From Ping to HTTP
 
 sudo apt-get update && sudo apt-get upgrade alustuseks (&& käivitab esimese ning seejärel teise käsu)
 sudo apt-get install netcat-openbsd tcpdump traceroute mtr 
