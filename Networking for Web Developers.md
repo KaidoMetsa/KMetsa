@@ -59,7 +59,7 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 
 **Printf
 
-"printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input **
+"printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input**
 
 6. tcdump -n -c5 -i ethø port 22
 7. traceroute www.udacity.com
