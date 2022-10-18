@@ -35,3 +35,13 @@ printf 'HEAD / HTTP/1.1\r\nHost: en.wikipedia.org\r\n\r\n' | nc en.wikipedia.org
 tcdump -n -c5 -i ethø port 22
 traceroute www.udacity.com
 mtr uidacity.com
+
+## koodi kirjutamisel alljärgnev kood 
+
+<?php
+
+header("Location: https://www.example.com/", true, 302);
+
+exit();
+
+?>
