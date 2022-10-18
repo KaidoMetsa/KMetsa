@@ -65,7 +65,7 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 7. traceroute www.udacity.com
 8. mtr uidacity.com
 
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/KaidoMetsa/KMetsa/blob/main/LayerProtocolConcepts.png?raw=true))
+![LCP](https://github.com/KaidoMetsa/KMetsa/blob/main/LayerProtocolConcepts.png?raw=true)
 
 | Layer | Protocol | Concepts |
 | ------------- | ------------- | ------------- |
