@@ -14,7 +14,7 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 
 - ip route show
 - ping −c3 8.8.8.8 
-  --google üks aadressidest
+  -- google üks aadressidest
   -- ping on cmd võrguühenduse testimiseks
   -- -c3 saadab kolm paketti testimiseks
   --sudo apt-get install iputils-ping kui ping ei tööta
