@@ -5,7 +5,7 @@
 
  ## HTTP LINUXI KÄSUREAL / From Ping to HTTP
 
- Konspekti kirjutamisel kasuta formaate ja käske :
+[Konspekti kirjutamisel kasuta formaate ja käske](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 # The largest heading (#)
 ## The second largest heading (##)
