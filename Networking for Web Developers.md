@@ -79,15 +79,15 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 
 
 
-## koodi kirjutamisel alljärgnev kood 
+# koodi kirjutamisel alljärgnev kood 
 
-<?php
+?php
 
 header("Location: https://www.examplecom/", true, 302);
 
 exit();
 
-?>
+?
 
 ## Pordi kuulamine
 
