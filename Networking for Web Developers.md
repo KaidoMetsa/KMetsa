@@ -3,7 +3,7 @@
 # [Networking for Web Developers](https://learn.udacity.com/courses/ud256)
 
 
- ## HTTP LINUXI KÄSUREAL / From Ping to HTTP
+ ## HTTP LINUXI KÄSUREAL / From Ping to HTTP :keyboard:
 
 [Konspekti kirjutamisel kasuta formaate ja käske](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
