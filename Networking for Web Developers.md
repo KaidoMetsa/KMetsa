@@ -90,5 +90,6 @@ exit();
 ?
 
 ## Pordi kuulamine
- gcloud cloud-shell ssh cloudshelli käsk ,et sisse minna kuulama
-Man nc
+- gcloud cloud-shell ssh cloudshelli käsk ,et sisse minna kuulama
+- Man nc
+- localhost rääkimine nc localhost (pordi number)
