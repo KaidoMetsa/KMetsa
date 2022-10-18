@@ -24,8 +24,8 @@ git commit
 ## [Cloudshell ](https://cloud.google.com/shell)
 
 Käsud
-     sudo apt-get update && sudo apt-get upgrade alustuseks (&& käivitab esimese ning seejärel teise käsu)
-     sudo apt-get install netcat-openbsd tcpdump traceroute mtr 
+     -sudo apt-get update && sudo apt-get upgrade alustuseks (&& käivitab esimese ning seejärel teise käsu)
+     -sudo apt-get install netcat-openbsd tcpdump traceroute mtr 
 
 - ip addrs show ethø   
 - ip aadressi hankimine
