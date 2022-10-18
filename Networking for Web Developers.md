@@ -67,9 +67,10 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 
 
 
-| Layer\Valdkond  | Protocol | Concepts |
+| Layer | Protocol | Concepts |
 | ------------- | ------------- | ------------- |
 | Application | HTTP, SSH  | URLs,Paroolid |
+              | DNS|
 | Transport | TCP,UDP  | Pordi numbrid,seansid\sessioonid |
 | Internet  | IP, IP aadressid, routes|
 |Hardware| Wifi,Ethernet,DSL| Signal strenth,access points |
