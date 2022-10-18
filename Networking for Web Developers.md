@@ -1,5 +1,6 @@
 # KMetsa
-#Networking for Web Developers
+
+# Networking for Web Developers
 
  ## HTTP LINUXI KÄSUREAL / From Ping to HTTP
 
@@ -40,7 +41,7 @@ mtr uidacity.com
 
 <?php
 
-header("Location: https://www.example.com/", true, 302);
+header("Location: https://www.examplecom/", true, 302);
 
 exit();
 
