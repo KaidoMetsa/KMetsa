@@ -4,7 +4,7 @@
 
 
  ## HTTP LINUXI KÄSUREAL / From Ping to HTTP :keyboard:
-
+<!-- 
 [Konspekti kirjutamisel kasuta formaate ja käske](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 # The largest heading (#)
@@ -20,7 +20,8 @@ git status
 git add
 git commit
 ```
-
+ -->
+ 
 ## [Cloudshell ](https://cloud.google.com/shell)
 
 Käsud
@@ -37,7 +38,7 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 
 - ip route show
 1. ping −c3 8.8.8.8 
-- google üks aadressidest
+ - google üks aadressidest
   -- ping on cmd võrguühenduse testimiseks
   -- -c3 saadab kolm paketti testimiseks
   --sudo apt-get install iputils-ping kui ping ei tööta
