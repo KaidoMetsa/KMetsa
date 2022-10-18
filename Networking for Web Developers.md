@@ -4,6 +4,12 @@
 
  ## HTTP LINUXI KÄSUREAL / From Ping to HTTP
 
+ Konspekti kirjutamisel kasuta 
+
+# The largest heading
+## The second largest heading
+###### The smallest heading
+
 sudo apt-get update && sudo apt-get upgrade alustuseks (&& käivitab esimese ning seejärel teise käsu)
 sudo apt-get install netcat-openbsd tcpdump traceroute mtr 
 
