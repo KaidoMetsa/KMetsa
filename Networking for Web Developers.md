@@ -85,6 +85,10 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 |Hardware| Wifi,Ethernet,DSL| Signal strenth,access points |
 
 
+terminali 1 - nc -l -p 1299 
+terminali 2 nc localhost 1299
+omavahel suhtlevad ühes pordis
+
 
 # koodi kirjutamisel alljärgnev kood 
 
