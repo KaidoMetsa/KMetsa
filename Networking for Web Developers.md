@@ -104,3 +104,5 @@ exit();
 - gcloud cloud-shell ssh cloudshelli käsk ,et sisse minna kuulama
 - Man nc
 - localhost rääkimine nc localhost (pordi number)
+- kõrgem port mida saab kuulata on 6556. madalaim 0
+-  65536, but only ports numbers 0 to 1024 are reserved 
