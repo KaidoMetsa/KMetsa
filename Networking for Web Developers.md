@@ -52,7 +52,7 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 - sudo apt-get install iputils-ping kui ping ei tööta
 - internetis liiguvad käsud ja info nn pakkidena/sõnumitena
 - pingida saab kõiki arvuteid/servereid mis kasutavad  op süsteeme mis toetavad interneti (Windows,linux,mac jne)
-
+- ping -c3 kmetsa.webhosting.tptlive.ee
 
 2. host -t aaaa google.com
 3. host -t mx udacity.com
