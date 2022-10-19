@@ -106,3 +106,5 @@ exit();
 - localhost rääkimine nc localhost (pordi number)
 - kõrgem port mida saab kuulata on 6556. madalaim 0
 -  65536, but only ports numbers 0 to 1024 are reserved 
+
+## sudo lsof -i  näitab mis programmid antud hetkel seal pordis kuulavad
