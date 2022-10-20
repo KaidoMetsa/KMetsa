@@ -7,6 +7,8 @@
  
  [Konspekti kirjutamisel kasuta formaate ja käske](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
  
+ 6/10/22
+ 
 <!-- 
 
 # The largest heading (#)
@@ -33,8 +35,8 @@ Käsud cloudshelli alustamisel :
 
 Või 
 
-- sudo apt-get update
-- sudo apt-get install netcat-openbsd tcpdump traceroute mtr
+ - sudo apt-get update && sudo apt-get install netcat-openbsd tcpdump traceroute mtr iputils-ping lsof -y
+
 
 Käsud :
 
@@ -108,3 +110,33 @@ exit();
 -  65536, but only ports numbers 0 to 1024 are reserved 
 
 ## sudo lsof -i  näitab mis programmid antud hetkel seal pordis kuulavad
+
+
+#IP AADRESSID 20/10/22
+
+Cloudshellis sudo apt-get update && sudo apt-get install netcat-openbsd tcpdump traceroute mtr iputils-ping lsof -y
+Kill %% kustutab ja peatab kogu ettevõtmise
+Control + z - paus
+fg toob tagasi esiplaanile
+bg - viib taustale
+Control + c katkestab 
+
+ - ssh kasutamine
+ - Github
+
+Avalik & salajane võti
+ - Autentimine
+ - Autoriseerimine
+ - Krüpteerimine
+ - Avaliku võtmega krüpteerime andmed (avalikuga enam avada ei saa).
+ - salajasega saame avada
+ - X.509 - public key krüpteerimine (PKI)
+ - SSH võti - kahe osaline 
+
+Webhostingus tee public key -manage-accept
+ava ssh
+Vaata oma kasutajanime ja shared local ip paremalt
+ava Git cmd 
+webhostingus ava terminal ja paste kood ,et näha koodi
+Putty tööriist
+
