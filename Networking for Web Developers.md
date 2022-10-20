@@ -114,12 +114,14 @@ exit();
 
 #IP AADRESSID 20/10/22
 
-Cloudshellis sudo apt-get update && sudo apt-get install netcat-openbsd tcpdump traceroute mtr iputils-ping lsof -y
-Kill %% kustutab ja peatab kogu ettevõtmise
-Control + z - paus
-fg toob tagasi esiplaanile
-bg - viib taustale
-Control + c katkestab 
+Cloudshellis 
+sudo apt-get update && sudo apt-get install netcat-openbsd tcpdump traceroute mtr iputils-ping lsof -y
+
+  - Kill %% kustutab ja peatab kogu ettevõtmise
+  - Control + z - paus
+  - fg toob tagasi esiplaanile
+  - bg - viib taustale
+  - Control + c katkestab 
 
  - ssh kasutamine
  - Github
