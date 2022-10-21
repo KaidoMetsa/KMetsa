@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="It"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 11:16:50 AM"/>
+        <attribute name="created" value="SXQ7REVTS1RPUC0xTDlFVFVHOzIwMjItMTAtMDc7MDk6MDI6MzggQU07MjUyOA=="/>
+        <attribute name="edited" value="SXQ7REVTS1RPUC0xTDlFVFVHOzIwMjItMTAtMDc7MTE6MTY6NTAgQU07ODsyNjM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Seotud: Pr_001"/>
+            <comment text="Programmeerimise &#245;pik&#13;&#10;https://progeopik.cs.ut.ee/01_sissejuhatus.html"/>
+            <comment text="-Aritmeetilised tehted&#13;&#10;-Jutum&#228;rkides staatiline tekst"/>
+            <comment text="-Deklareerime, et milliseid arve kasutame (arv1,2,3) ning need on t&#228;isarvulised (integer)"/>
+            <declare name="arv1, arv2, arv3" type="Integer" array="False" size=""/>
+            <comment text="-Inputiga alati output"/>
+            <comment text="Prindib ekraanile kirja"/>
+            <output expression="&quot;Esimene arv&quot;" newline="True"/>
+            <comment text="Avab esimese arvu sisestamiseks v&#245;imaluse"/>
+            <input variable="arv1"/>
+            <output expression="&quot;Teine arv&quot;" newline="True"/>
+            <input variable="arv2"/>
+            <comment text="-Assign teeb tehteid"/>
+            <assign variable="arv3" expression="arv1+arv2"/>
+            <comment text="-Outputis &amp; j&#228;rel asi, mida kuvame eelnevalt arvutatuna (arv3)"/>
+            <output expression="&quot;Summa = &quot; &amp; arv3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

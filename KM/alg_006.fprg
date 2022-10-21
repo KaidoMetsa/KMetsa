@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="It"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-21 09:35:12 AM"/>
+        <attribute name="created" value="SXQ7REVTS1RPUC1JM05WTDRKOzIwMjItMTAtMjE7MDk6MjA6MzQgQU07MjUxOQ=="/>
+        <attribute name="edited" value="SXQ7REVTS1RPUC1JM05WTDRKOzIwMjItMTAtMjE7MDk6MzU6MTIgQU07MzsyNjMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arv, maksimum, loendur" type="Integer" array="False" size=""/>
+            <comment text="Korduslaused&#13;&#10;"/>
+            <output expression="&quot;Sisesta esimene arv&quot;" newline="True"/>
+            <input variable="arv"/>
+            <assign variable="maksimum" expression="arv"/>
+            <assign variable="loendur" expression="2"/>
+            <while expression="Loendur&lt;=5">
+                <output expression="&quot;Sisesta j&#228;rgmine arv&quot;" newline="True"/>
+                <input variable="arv"/>
+                <assign variable="loendur" expression="loendur+1"/>
+                <if expression="arv&gt;maksimum">
+                    <then/>
+                    <else/>
+                </if>
+                <assign variable="loendur" expression="loendur+1"/>
+            </while>
+            <output expression="&quot;maksimum=&quot;&amp;maksimum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

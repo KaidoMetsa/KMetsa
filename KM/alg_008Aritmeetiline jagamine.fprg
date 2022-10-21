@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="It"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-21 11:29:07 AM"/>
+        <attribute name="created" value="SXQ7REVTS1RPUC1JM05WTDRKOzIwMjItMTAtMjE7MTA6NTM6MjcgQU07MjUxOQ=="/>
+        <attribute name="edited" value="SXQ7REVTS1RPUC1JM05WTDRKOzIwMjItMTAtMjE7MTE6Mjk6MDcgQU07MjsyNjMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="aritmeetiline jada&#13;&#10;2+5+8+11+14+17=57"/>
+            <declare name="esimene, samm, mitu, arv, summa, i" type="Integer" array="False" size=""/>
+            <assign variable="esimene" expression="-8"/>
+            <assign variable="samm" expression="3"/>
+            <assign variable="mitu" expression="6"/>
+            <assign variable="summa" expression="0"/>
+            <assign variable="arv" expression="esimene"/>
+            <for variable="i" start="1" end="mitu" direction="inc" step="1">
+                <if expression="I==1 or arv&lt;0">
+                    <then>
+                        <output expression="arv" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;+&quot; &amp; arv" newline="True"/>
+                    </else>
+                </if>
+                <assign variable="summa" expression="summa+arv"/>
+                <assign variable="arv" expression="arv+samm"/>
+            </for>
+            <output expression="&quot;=&quot; &amp; summa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
