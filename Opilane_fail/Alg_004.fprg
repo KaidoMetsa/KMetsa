@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="It"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-21 08:51:18 AM"/>
+        <attribute name="created" value="SXQ7REVTS1RPUC0xTDlFVFVHOzIwMjItMTAtMDc7MDk6MDI6MzggQU07MjUyOA=="/>
+        <attribute name="edited" value="SXQ7REVTS1RPUC0xTDlFVFVHOzIwMjItMTAtMDc7MTE6Mzk6NDEgQU07MjI7MjY4NA=="/>
+        <attribute name="edited" value="SXQ7REVTS1RPUC1JM05WTDRKOzIwMjItMTAtMjE7MDg6NTE6MTggQU07MTsyNjMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Seotud: Pr_003"/>
+            <comment text="-Leiame kolme t&#228;isarvu hulgast maksimumi"/>
+            <declare name="arv1, arv2, arv3, maksimum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Esimene arv&quot;" newline="True"/>
+            <input variable="arv1"/>
+            <output expression="&quot;Teine arv&quot;" newline="True"/>
+            <input variable="arv2"/>
+            <output expression="&quot;Komas arv&quot;" newline="True"/>
+            <input variable="arv3"/>
+            <if expression="arv1&gt;=arv2 and arv1&gt;2">
+                <then>
+                    <assign variable="Maksimum" expression="arv1"/>
+                </then>
+                <else>
+                    <if expression="arv2&gt;arv3">
+                        <then>
+                            <assign variable="Maksimum" expression="arv2"/>
+                        </then>
+                        <else>
+                            <assign variable="Maksimum" expression="arv3"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Maksimum = &quot; &amp; maksimum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

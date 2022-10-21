@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="It"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-23 10:06:17 AM"/>
+        <attribute name="created" value="SXQ7REVTS1RPUC1JM05WTDRKOzIwMjItMDktMjM7MDg6NTk6MDIgQU07MjUzNQ=="/>
+        <attribute name="edited" value="SXQ7REVTS1RPUC1JM05WTDRKOzIwMjItMDktMjM7MTA6MDY6MTcgQU07NDsyNjM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arv1, arv2, arv3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sisesta esimene arv:&quot;" newline="True"/>
+            <input variable="arv1"/>
+            <output expression="&quot;Sisesta teine arv:&quot;" newline="True"/>
+            <input variable="arv2"/>
+            <assign variable="arv3" expression="arv1+arv2"/>
+            <output expression="&quot;summa = &quot; &amp; arv3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
