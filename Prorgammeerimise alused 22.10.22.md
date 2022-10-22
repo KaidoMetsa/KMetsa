@@ -1,5 +1,6 @@
 # KMetsa
 
-## 22.10.22
+## 22.10.22 & Visual studio
 
-> gagagweaga
+
+
