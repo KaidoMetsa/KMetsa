@@ -2,8 +2,11 @@
 
 
 [UDACITY VÕRGU KURSUS](https://learn.udacity.com/courses/ud256)
+
 [MS OFFICE](https://www.office.com/?auth=2)
+
 [MS OUTLOOK](https://outlook.office.com/mail/)
+
 [MS TEAMS](https://teams.microsoft.com/_#/school/gradebook/%C3%9Cldine?threadId=19:5OTe-JpzSIQ5CwfJfBa3vLlfae6uCnljwXBXmE6kLwk1@thread.tacv2&ctx=channel&isTeamLevelApp=true)
 [MAIL.COM](https://www.mail.com/)
 [TPT WEBHOST](https://clientarea.webhosting.tptlive.ee/clientarea.php)
