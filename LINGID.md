@@ -23,7 +23,7 @@
 
 [Draw.io](https://app.diagrams.net/)
 
-[Arvuti arhidektuur]([https://app.diagrams.net/](https://eopearhiiv.edu.ee/e-kursused/eucip/haldus/1_arvutite_komponendid_ja_arhitektuur.html))
+[Arvuti arhidektuur](https://eopearhiiv.edu.ee/e-kursused/eucip/haldus/1_arvutite_komponendid_ja_arhitektuur.html)
 
 [MS PowerPoint harjutused ]( https://www.metshein.com/course/microsoft-powerpoint-2016/curriculum)
 
