@@ -236,11 +236,13 @@ However, not all of the possible 32-bit values are used for real addresses. Some
 
 Here's a visualization of the entire IPv4 address space. Each square represents one possible value of the first octet of an address. For instance, the square on the top right, labeled 15, represents all the IPv4 addresses that start with 15 as their first octet.
 
-hilbertChart = {
-  
-gagaga
+![IPV4 aadress kaart](https://github.com/KaidoMetsa/TPT/blob/main/Pildid/Adressmap.png?raw=true)
 
-}
+> The light-green squares (0, 10, and 127) are blocks that are entirely reserved.
+The dark-green squares are blocks that are partly reserved. For instance, not all of the 192 block is reserved, but some of it is.
+The entire cyan row (starting at 224) is set aside for IP multicast.
+And the entire orange bottom row (starting at 240) was originally set aside for "future use" but was effectively lost due to being blocked as invalid. No, really. We lost 1/16th of all IPv4 addresses due to mistaken planning.
+In fact, just over one-eighth of all possible IPv4 addresses are set aside for something other than addressing public hosts. But as you'll see, even if we did use all 32-bit addresses to represent public hosts, that still wouldn’t really be enough.
 
 ## Ruuterid Network 
 
