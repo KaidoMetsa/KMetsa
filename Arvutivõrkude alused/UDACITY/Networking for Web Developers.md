@@ -190,3 +190,14 @@ Näete väljundit järgmiselt:
 
 Tere kasutaja! Olete edukalt autentinud, kuid GitHub ei anna juurdepääsu shellile.
 Kui ülaltoodud kasutaja on õige ja kuvatakse sama kasutajana, mida proovisite lisada, on kõik korras ja olete lõpetanud sith -võtme seadistamise Githubiga! Kui loa saamisest keeldutakse, peame ülaltoodud sammud ristkontrollima ja veenduma, et olete teinud kõik ülaltoodud dokumendi kohaselt. Kui vajate sel juhul abi, võite minuga alati ühendust võtta.
+
+
+
+ ## IP aadress
+
+Kuna internetis liigub info nn pakkidena on igal pakil aadressiks IP aadress ning sihtpunktis kuhu ta jõudma peab on IP aadress.
+ping "aadress" terminalis annab pingitava IP aadressi ning iseenda aadressi.
+
+The Domain Name System (DNS) On süsteem kus DNS haldab registrit ning annab aadressi veebilehtedele.
+Külastaja enda IP aadress on sisestatud arvutis by default juba.
+
