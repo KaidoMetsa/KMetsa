@@ -259,7 +259,7 @@ Võrgu liideste vaatamiseks
 > ip addr show (ühendus)
 > ifconfig | less (ühendus)
 
-![DF Gateway]()
+![DF Gateway](https://github.com/KaidoMetsa/TPT/blob/main/Pildid/DFGTW.png?raw=true)
 > netstat -nr 
 Default gateway ja saab ka näha võrgu ühenduse liiki 
 
