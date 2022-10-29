@@ -142,3 +142,51 @@ ava Git cmd
 webhostingus ava terminal ja paste kood ,et näha koodi
 Putty tööriist
 
+[Softoban SSH Juhend](https://et.softoban.com/ssh-key-setup-github)
+
+SSH -võtme lisamine GitHubi kontole
+Logige oma terminali sisse SSH kaudu.
+
+Looge võtmepaar, käivitades järgmise käsu, asendades oma GitHubi e -posti aadressi hinnapakkumiste vahel:
+
+#ssh-keygen -trsa-b 4096 -Csinu email@domeen.com
+Kui teil palutakse sisestada fail, kuhu võti salvestada, vajutage Sisenema selle vaikimisi salvestamiseks. Kui soovite kasutada mõnda muud asukohta, saate siin ka kasutatava tee esitada.
+
+Sisestage viipale turvaline parool, mida kasutatakse võtme autentimisel, ja kinnitage see. Te ei saa seda parooli isegi seadistada, kui te ei vaja täiendavat kinnitust. Nüüd olete loonud SSH võtmepaari. Märkige kindlasti üles näiteks avaliku võtme ja privaatvõtme failid.
+
+Ssh võtme lisamiseks GitHubisse peate võtma avaliku võtme koopia ja selle tegemiseks võite kasutada allolevat käsku ssh.
+
+#kass /Kodu/kasutaja/.ssh/id_rsa.pub
+Kui olete lõikepuhvrisse või mõnda kohalikku tekstifaili sisu kopeerinud, saame võtme Githubi kontole lisamiseks kasutada järgmisi samme.
+
+Peate oma kasutaja/pääsme abil Githubi kontole sisse logima
+Klõpsake profiilipildil ja valige rippmenüüst Seaded.
+Valige vasakpoolses menüüs SSH ja GPG võtmed
+Esimese või mõne muu võtme lisamiseks klõpsake nuppu Uus SSH -võti
+
+Väljale Pealkiri peate lisama sildi, mida mäletate. (Ma kasutasin Sumeshi MacBook Airi).
+
+Võite kasutada mis tahes sõna ja ainus asi, mille eest peate hoolitsema, peate veenduma, et see aitab teil tuvastada masina, millel see võti on loodud.
+
+Võtmeväljale lisage ülaltoodud võti, mille saate käsuga cat /home/user/.ssh/id_rsa.pub, mis algab sõnaga ssh-rsa
+
+Klõpsake nuppu Lisa SSH -võti.
+Kui küsitakse, kinnitage oma GitHubi parool, mida kasutatakse kinnitamiseks.
+
+Nüüd näete loetletud võtit, mille olete lisanud pealkirja nimesse. Ja peate tegema sama protseduuri iga arvuti, reaalajas serverite arendaja/lavastusserveri jaoks, mis peab teie hoidlatesse juurde pääsema.
+
+Kontrollige oma ühendust kohaliku masina ja Githubi vahel
+Avage uus ssh -terminal ja veenduge, et lülitate selle kasutaja juurde, kelle jaoks olete ssh -võtmepaari loonud. Githubi kontoga ühenduse loomiseks ssh -klahvi kaudu peate sisestama alloleva ja vajutama sisestusklahvi # ssh -T[e -post kaitstud]
+
+Kui ühendate selle seadmega esmakordselt, näete tulemust nagu allpool ja peate sel juhul sisestama Jah:
+
+Hosti „github.com (192.30.1.1)” autentsust ei saa kindlaks teha.
+RSA võtme sõrmejälg on SHA256: asdnasd871321312kjaksjdasdijsaidjsad1Rk3ndm.
+Kas olete kindel, et soovite jätkata ühendamist (jah/ei)? jah
+Hoiatus: 'Github.com, 192.30.30.1' (RSA) on jäädavalt lisatud teadaolevate hostide loendisse.
+Sisestage jah
+Vajutage sisestusklahvi
+Näete väljundit järgmiselt:
+
+Tere kasutaja! Olete edukalt autentinud, kuid GitHub ei anna juurdepääsu shellile.
+Kui ülaltoodud kasutaja on õige ja kuvatakse sama kasutajana, mida proovisite lisada, on kõik korras ja olete lõpetanud sith -võtme seadistamise Githubiga! Kui loa saamisest keeldutakse, peame ülaltoodud sammud ristkontrollima ja veenduma, et olete teinud kõik ülaltoodud dokumendi kohaselt. Kui vajate sel juhul abi, võite minuga alati ühendust võtta.
