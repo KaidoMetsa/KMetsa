@@ -236,7 +236,9 @@ However, not all of the possible 32-bit values are used for real addresses. Some
 
 Here's a visualization of the entire IPv4 address space. Each square represents one possible value of the first octet of an address. For instance, the square on the top right, labeled 15, represents all the IPv4 addresses that start with 15 as their first octet.
 
-{Kood}
+{
+Kood
+}
 
 ## Ruuterid Network 
 
