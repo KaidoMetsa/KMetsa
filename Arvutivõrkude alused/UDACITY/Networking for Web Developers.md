@@ -35,7 +35,7 @@ Käsud cloudshelli alustamisel :
 
 Või 
 
-<sudo apt-get update && sudo apt-get install netcat-openbsd tcpdump traceroute mtr iputils-ping lsof -y -->
+>sudo apt-get update && sudo apt-get install netcat-openbsd tcpdump traceroute mtr iputils-ping lsof -y 
 
 
 Käsud :
