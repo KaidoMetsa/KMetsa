@@ -247,6 +247,7 @@ In fact, just over one-eighth of all possible IPv4 addresses are set aside for s
  4,294,967,296 IPv4 avalike aadresse võimalik . Vähem kui IPv6te
  Subnet mask - jaotab esimese osa 255.255.255.255 ja võrgu oma 0000
  Subnetmask /16 on 	65534
+ 
 ## Ruuterid Network 
 
 Eetho - kaabli interneti liides (ühendus)
@@ -271,3 +272,28 @@ Default gateway ja saab ka näha võrgu ühenduse liiki
 
 
 ## Aadress translation
+
+Kodu seadmed kasutavad omavahel suhtlust ruuterit läbi default gateway mis kasutab seadmete privaatseid aadresse ja läbi ruuteri läheb 1 avalik aadress mis omakorda lkliigub läbi ISP (internet service provideri).
+
+Netblockid mida privaatsed IP aadressid on 12,14,16 ja kõige levinum 24.
+
+Privaatse võrgu ahel kasutab NAT süsteemi tõlgendamaks aadresse mis omavahel kasutatud on.
+Nat kasutatakse ainult väljaspool ISP ja enamasti kohalikes võrkudes.
+Nat ei ole samas kõige parem lahendus aadresside vähesuses - selleks loetakse ikkagi IPv6te.
+
+[IPv6 vs IPv4](https://github.com/KaidoMetsa/TPT/blob/main/Pildid/ipv6vsipv4.png?raw=true)
+
+HTTP / TCP / IP / Hardware
+
+< sudo tcpdump -n 255.255.255.255 (IP)
+
+Annab infot pakkide kohta (suurus,aadressid,portid)
+
+Protokollides  toimub süsteem küsija ja andja vahel kihiti ning kindlas järiekorras. Seda reguleerib TCP.
+
+< TCP Flags
+Each TCP packet record that you look at in tcpdump has a section called Flags that appears right after the address and port information. It has one or more letters or dots inside square brackets:
+
+< 19:51:58.304117 IP 10.20.27.153.59328 > 93.184.216.34.80: Flags [S], seq 2574797435, win 26883, options [mss 8961,sackOK,TS val 689168793 ecr 0,nop,wscale 7], length 0
+
+
