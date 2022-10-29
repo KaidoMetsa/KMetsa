@@ -290,6 +290,7 @@ HTTP / TCP / IP / Hardware
 Annab infot pakkide kohta (suurus,aadressid,portid)
 
 Protokollides  toimub süsteem küsija ja andja vahel kihiti ning kindlas järiekorras. Seda reguleerib TCP.
+TCP kontrollib ka info edastuse kiirust jälgides ,et vastuvõtja ja andja oleksid samal kiirusel. Muidu tekkiks Time out ja ühendused katkeks. 
 
 > TCP Flags
 Each TCP packet record that you look at in tcpdump has a section called Flags that appears right after the address and port information. It has one or more letters or dots inside square brackets:
@@ -337,4 +338,19 @@ In a long-running connection, there will be many packets exchanged back and fort
 
 >ICMP and UDP don't have TCP flags
 If you look at tcpdump data for pings or basic DNS lookups, you will not see flags. This is because ping uses ICMP, and basic DNS lookups use UDP. These protocols do not have TCP flags or sequence numbers.
+
+
+- Traceroute (aadress)
+- mtr (aadress)
+Näitab mitu hüppet ruuterite vahel ühendus teeb kuni jõuab aadressini.
+Iga pakk mis liigub läbi ruuterite alustab suure numbriga ning tal on kindel eluaeg. Lõppu jõudes peab ta 0 jõudma.
+
+
+bits jagatud sekunditega x sekundid  = bittide arv saadetud sekundis 
+Tulemüür(firewall) reguleerib mis ja kes saab sisse ning välja võrgus. Reguleerib nö pakke.
+NAT sarnaneb tulemüüriga aga sellega võivad tekkida IP kattuvuse probleemid.
+
+
+
+
 
