@@ -45,9 +45,9 @@ Käsud :
        - Ethernet seadme nimi on harilikult eth0, eth1, eth2, jne.
 IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1, jne
 - Ethernet on juhtmetega kohtvõrgu tehnoloogia, mis vastab Elektri- ja Elektroonikainseneride Instituudi standardile
-
 - ip route show
-1. ping −c3 8.8.8.8 
+- 
+1. > ping −c3 8.8.8.8 
 - google üks aadressidest
 - ping on cmd võrguühenduse testimiseks
 - -c3 saadab kolm paketti testimiseks
@@ -56,10 +56,10 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 - pingida saab kõiki arvuteid/servereid mis kasutavad  op süsteeme mis toetavad interneti (Windows,linux,mac jne)
 - ping -c3 kmetsa.webhosting.tptlive.ee
 
-2. host -t aaaa google.com
-3. host -t mx udacity.com
-4. ## printf 'HEAD / HTTP/1.1\r\nHOST: www.udacity.com \r\n\r\n' \ |ne www.udacity.com 8ø
-5. printf 'HEAD / HTTP/1.1\r\nHost: en.wikipedia.org\r\n\r\n' | nc en.wikipedia.org 80
+2. > host -t aaaa google.com
+3. > host -t mx udacity.com
+4. > ## printf 'HEAD / HTTP/1.1\r\nHOST: www.udacity.com \r\n\r\n' \ |ne www.udacity.com 8ø
+5. > printf 'HEAD / HTTP/1.1\r\nHost: en.wikipedia.org\r\n\r\n' | nc en.wikipedia.org 80
 - nagu echo 
 - nc on netcat tööriist
 - en.wikipedia.org 80 on wikipedia server
@@ -70,9 +70,9 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 
 **"printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input**
 
-6. tcdump -n -c5 -i ethø port 22
-7. traceroute www.udacity.com
-8. mtr uidacity.com
+6. > tcdump -n -c5 -i ethø port 22
+7. > traceroute www.udacity.com
+8. > mtr uidacity.com
 
 ![LCP](https://github.com/KaidoMetsa/TPT/blob/main/Pildid/LayerProtocolConcepts.png?raw=true)
 
@@ -149,7 +149,7 @@ Logige oma terminali sisse SSH kaudu.
 
 Looge võtmepaar, käivitades järgmise käsu, asendades oma GitHubi e -posti aadressi hinnapakkumiste vahel:
 
-#ssh-keygen -trsa-b 4096 -Csinu email@domeen.com
+> #ssh-keygen -trsa-b 4096 -Csinu email@domeen.com
 Kui teil palutakse sisestada fail, kuhu võti salvestada, vajutage Sisenema selle vaikimisi salvestamiseks. Kui soovite kasutada mõnda muud asukohta, saate siin ka kasutatava tee esitada.
 
 Sisestage viipale turvaline parool, mida kasutatakse võtme autentimisel, ja kinnitage see. Te ei saa seda parooli isegi seadistada, kui te ei vaja täiendavat kinnitust. Nüüd olete loonud SSH võtmepaari. Märkige kindlasti üles näiteks avaliku võtme ja privaatvõtme failid.
@@ -200,4 +200,11 @@ ping "aadress" terminalis annab pingitava IP aadressi ning iseenda aadressi.
 
 The Domain Name System (DNS) On süsteem kus DNS haldab registrit ning annab aadressi veebilehtedele.
 Külastaja enda IP aadress on sisestatud arvutis by default juba.
+
+Host command 
+> host "Aadress"  
+Annab registrist info antud aadressi kohta
+
+![CS Host cmd www.neti.ee](https://github.com/KaidoMetsa/TPT/blob/main/Pildid/Host%20cmd.png?raw=true)
+
 
