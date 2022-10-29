@@ -244,6 +244,25 @@ The entire cyan row (starting at 224) is set aside for IP multicast.
 And the entire orange bottom row (starting at 240) was originally set aside for "future use" but was effectively lost due to being blocked as invalid. No, really. We lost 1/16th of all IPv4 addresses due to mistaken planning.
 In fact, just over one-eighth of all possible IPv4 addresses are set aside for something other than addressing public hosts. But as you'll see, even if we did use all 32-bit addresses to represent public hosts, that still wouldn’t really be enough.
 
+ 4,294,967,296 IPv4 avalike aadresse võimalik . Vähem kui IPv6te
+ Subnet mask - jaotab esimese osa 255.255.255.255 ja võrgu oma 0000
+ Subnetmask /16 on 	65534
 ## Ruuterid Network 
 
+Eetho - kaabli interneti liides (ühendus)
+wlan0 - wif interneti liides (ühendus)
+loopback (LO) arvuti iseendaga suhtlemiseks liides  (ühendus)
+Tunnel interface / virtual machine interface - kaugjuhitav läbi võrguga (ühendus)
+
+Võrgu liideste vaatamiseks
+
+> ip addr show (ühendus)
+> ifconfig | less (ühendus)
+
+![DF Gateway]()
+> netstat -nr 
+Default gateway ja saab ka näha võrgu ühenduse liiki 
+
+![Pingimise kiirus](https://github.com/KaidoMetsa/TPT/blob/main/Pildid/Ping.png?raw=true)
+>ping 172.17.0.1
 ## Aadress translation
