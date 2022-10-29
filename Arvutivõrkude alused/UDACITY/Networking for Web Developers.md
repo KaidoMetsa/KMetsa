@@ -207,4 +207,20 @@ Annab registrist info antud aadressi kohta
 
 ![CS Host cmd www.neti.ee](https://github.com/KaidoMetsa/TPT/blob/main/Pildid/Host%20cmd.png?raw=true)
 
+Täpsem info DNSi regsitrist
+> dig www.neti.ee
 
+- CNAME - Alias/nickname domeenile mis on tema õige nimi. Kasutatakse aliast peitmiseks ja kui on dmoneeil mitu aadressi aga 1 IP.
+
+- DNS AAAA record -  DNS AAAA records match a domain name to an IPv6 address. DNS AAAA records are exactly like DNS A records, except that they store a domain's IPv6 address instead of its IPv4 address. IPv6 is the latest version of the Internet Protocol (IP).
+
+- An NS record (or nameserver record) is a DNS record that contains the name of the authoritative name server within a domain or DNS zone. When a client queries for an IP address, it can find the IP address of their intended destination from an NS record via a DNS lookup.
+
+CACHE Server - küsib erinevatelt allikatest IP aadressi
+
+www.aadress.ee (on all domeen aadress.ee)
+
+IPv4 vs Ipv6
+IPv4 255.0.255.0
+4 osaline biti ahel kus maximum ja vähim nr saab olla 0-255.
+IP aadressi väärtus on 32 biti (4baiti)
