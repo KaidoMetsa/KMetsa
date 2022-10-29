@@ -260,9 +260,14 @@ Võrgu liideste vaatamiseks
 > ifconfig | less (ühendus)
 
 ![DF Gateway](https://github.com/KaidoMetsa/TPT/blob/main/Pildid/DFGTW.png?raw=true)
+
 > netstat -nr 
+
 Default gateway ja saab ka näha võrgu ühenduse liiki 
 
 ![Pingimise kiirus](https://github.com/KaidoMetsa/TPT/blob/main/Pildid/Ping.png?raw=true)
->ping 172.17.0.1
+
+> ping 172.17.0.1
+
+
 ## Aadress translation
