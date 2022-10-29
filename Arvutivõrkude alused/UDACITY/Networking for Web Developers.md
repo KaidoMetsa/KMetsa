@@ -224,3 +224,86 @@ IPv4 vs Ipv6
 IPv4 255.0.255.0
 4 osaline biti ahel kus maximum ja vähim nr saab olla 0-255.
 IP aadressi väärtus on 32 biti (4baiti)
+
+## IP network blocks
+
+> Reserved IP addresses
+An IPv4 address is actually a 32-bit numeric value. We usually write it as a dotted quad — four decimal numbers, separated by dots, like 206.190.36.45 or 180.149.132.47. Each of the four numbers written down like this represents one octet or 8-bit value.
+
+But writing an IP address as four decimal numbers is just a convention to make it easier to read. When it’s used between computers, an address is transmitted in binary, just like all the other data sent over the network.
+
+However, not all of the possible 32-bit values are used for real addresses. Some of them are used for special applications that use addresses differently. Some of them are reserved for internal private networks. Some of them are for testing or documentation.
+
+Here's a visualization of the entire IPv4 address space. Each square represents one possible value of the first octet of an address. For instance, the square on the top right, labeled 15, represents all the IPv4 addresses that start with 15 as their first octet.
+
+hilbertChart = {
+  
+  const margin = 90;
+  
+  return HilbertChart()
+    .width(chartWidth - margin * 2)
+    .margin(margin)
+    .hilbertOrder(32 / 2)
+    .data(parseIpData(ianaData))
+    .rangePadding(0.03)
+    .valFormatter(ipFormatter)
+    .rangeTooltipContent(d => `<b>${d.name}</b>: ${prefixFormatter(d)}`);
+
+  //
+
+  function parseIpData(ipData) {
+    const prefixes = [];
+
+    ipData.map(row => {
+      const pref = new Ip.Prefix(row.Prefix);
+      return {
+        start: pref.firstIp().toNum(),
+        length: pref.countIps(),
+        name: getName(row.Designation),
+        infos: [row]
+      };
+    }).forEach(prefix => {
+      let last;
+
+      if (prefixes.length
+          && (last = prefixes[prefixes.length - 1])
+          && last.name === prefix.name
+          && (last.start + last.length === prefix.start)) {
+
+        last.length += prefix.length;
+        last.infos.push(prefix.infos[0]);
+      } else {
+        prefixes.push(prefix);
+      }
+    });
+
+    return prefixes;
+
+    //
+
+    function getName(designation) {
+      let name = designation;
+
+      if (name.indexOf('Administered by') > -1) {
+        name = 'Various Registries';
+      }
+
+      return name;
+    }
+  }
+
+  function ipFormatter(d) {
+    return new Ip.Addr(d).toString();
+  }
+
+  function prefixFormatter(d) {
+    const ipRange = new Ip.Range(d.start, d.start + d.length - 1);
+    const prefixes = ipRange.toPrefixes();
+
+    return (prefixes.length===1 ? prefixes[0] : ipRange).toString();
+  }
+}
+
+## Ruuterid Network 
+
+## Aadress translation
