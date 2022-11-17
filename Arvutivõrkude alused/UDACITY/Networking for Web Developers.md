@@ -68,7 +68,7 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 - | toru mis ütleb ,et vöta rea esimene osa sõnumist ja saada aadressile
 - nc wikipedia ees ütleb mis aadressile ühendada
 
-## Printf ja NC
+# Printf ja NC
 
 **"printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input**
 
