@@ -38,7 +38,7 @@ Või
 >sudo apt-get update && sudo apt-get install netcat-openbsd tcpdump traceroute mtr iputils-ping lsof -y 
 
 
-##UDACITY sissejuhatus cmds
+## UDACITY sissejuhatus cmds
 
 Käsud :
 
