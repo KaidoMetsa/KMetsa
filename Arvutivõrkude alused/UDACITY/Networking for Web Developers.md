@@ -354,6 +354,20 @@ bits jagatud sekunditega x sekundid  = bittide arv saadetud sekundis
 Tulemüür(firewall) reguleerib mis ja kes saab sisse ning välja võrgus. Reguleerib nö pakke.
 NAT sarnaneb tulemüüriga aga sellega võivad tekkida IP kattuvuse probleemid.
 
+NATi
++ ip aadresside korduvkattuvus 
++ enda masina ip ei paista avalikus võrgus
++ inimese vaatest lihtsam kui ipv6
+
+- CPU koormus
+- ip kattuvused
+- pahategusi ja segadust külvata on lihtsam
+- mõned protokollid ei saa NATiga hästi hakkama (ipsec, l2TP,aktiivne ftp)- pigem on SSL VPN tüüpi
+
+
+
+
+
 
 
 
