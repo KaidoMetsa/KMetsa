@@ -38,7 +38,7 @@ Või
 >sudo apt-get update && sudo apt-get install netcat-openbsd tcpdump traceroute mtr iputils-ping lsof -y 
 
 
-# FROM PING TO HTP
+# FROM PING TO HTTP
 
 Käsud :
 
@@ -68,7 +68,7 @@ IP aliased on lisa interfeisid füüsilisel interfeisil: eth0:1, eth0:2, eth2:1,
 - | toru mis ütleb ,et vöta rea esimene osa sõnumist ja saada aadressile
 - nc wikipedia ees ütleb mis aadressile ühendada
 
-# Printf ja NC
+
 
 **"printf" is the name of one of the main C output functions, and stands for "print formatted". printf format strings are complementary to scanf format strings, which provide formatted input**
 
@@ -103,6 +103,7 @@ header("Location: https://www.examplecom/", true, 302);
 exit();
 
 ?
+# Names and Addresses
 
 ## Pordi kuulamine
 - gcloud cloud-shell ssh cloudshelli käsk ,et sisse minna kuulama
@@ -203,6 +204,7 @@ ping "aadress" terminalis annab pingitava IP aadressi ning iseenda aadressi.
 The Domain Name System (DNS) On süsteem kus DNS haldab registrit ning annab aadressi veebilehtedele.
 Külastaja enda IP aadress on sisestatud arvutis by default juba.
 
+# Addressing and Networks
 Host command 
 > host "Aadress"  
 Annab registrist info antud aadressi kohta
@@ -273,7 +275,7 @@ Default gateway ja saab ka näha võrgu ühenduse liiki
 > ping 172.17.0.1
 
 
-## Aadress translation
+# # Protocol layers 
 
 Kodu seadmed kasutavad omavahel suhtlust ruuterit läbi default gateway mis kasutab seadmete privaatseid aadresse ja läbi ruuteri läheb 1 avalik aadress mis omakorda lkliigub läbi ISP (internet service provideri).
 
