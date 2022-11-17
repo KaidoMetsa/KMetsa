@@ -196,7 +196,7 @@ Kui ülaltoodud kasutaja on õige ja kuvatakse sama kasutajana, mida proovisite 
 
 
 
- ## IP aadress
+ ##IP aadress
 
 Kuna internetis liigub info nn pakkidena on igal pakil aadressiks IP aadress ning sihtpunktis kuhu ta jõudma peab on IP aadress.
 ping "aadress" terminalis annab pingitava IP aadressi ning iseenda aadressi.
@@ -229,7 +229,7 @@ IPv4 255.0.255.0
 4 osaline biti ahel kus maximum ja vähim nr saab olla 0-255.
 IP aadressi väärtus on 32 biti (4baiti)
 
-## IP network blocks
+##IP network blocks
 
 > Reserved IP addresses
 An IPv4 address is actually a 32-bit numeric value. We usually write it as a dotted quad — four decimal numbers, separated by dots, like 206.190.36.45 or 180.149.132.47. Each of the four numbers written down like this represents one octet or 8-bit value.
@@ -252,7 +252,7 @@ In fact, just over one-eighth of all possible IPv4 addresses are set aside for s
  Subnet mask - jaotab esimese osa 255.255.255.255 ja võrgu oma 0000
  Subnetmask /16 on 	65534
  
-## Ruuterid Network 
+##Ruuterid Network 
 
 Eetho - kaabli interneti liides (ühendus)
 wlan0 - wif interneti liides (ühendus)
@@ -275,7 +275,7 @@ Default gateway ja saab ka näha võrgu ühenduse liiki
 > ping 172.17.0.1
 
 
-# # Protocol layers 
+#Protocol layers 
 
 Kodu seadmed kasutavad omavahel suhtlust ruuterit läbi default gateway mis kasutab seadmete privaatseid aadresse ja läbi ruuteri läheb 1 avalik aadress mis omakorda lkliigub läbi ISP (internet service provideri).
 
