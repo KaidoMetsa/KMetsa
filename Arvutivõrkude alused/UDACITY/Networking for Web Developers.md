@@ -263,6 +263,8 @@ Võrgu liideste vaatamiseks
 
 > ip addr show (ühendus)
 > ifconfig | less (ühendus)
+> nslookup (DNS)
+>
 
 ![DF Gateway](https://github.com/KaidoMetsa/TPT/blob/main/Pildid/DFGTW.png?raw=true)
 
