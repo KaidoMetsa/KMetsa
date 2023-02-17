@@ -1,1 +1,35 @@
 # TPT
+•	Windows terminal
+•	Powershell
+•	Git/bash
+
+Pranks :
+
+Zerowithspace – tühik copy pastimiseks, pasted selle aga visuaalselt pole näha , koodis on näha. Unicodis vms on võimalik aga seda näha (3bitised sümbolid)
+
+Unicode character “;” (U+037E)
+Greek Question Mark  
+
+Git Bashi cmds
+~  kasutaja kodukaust
+--help - kuvab Helpi sisu
+cd - change directory liigub etteantud kausta
+cd - viib tagasi eelnevasse kataloogi
+ls ja dir - list kuvab kaustas olevad failid
+mkdir  - creates catalog
+cmd + Tab - teeb soovitusi D tähega algavate kaustade kohta ja autocompletib
+touch  - loob faili 
+mv “File nimi - move/rename (mv hello.txt cool.md). algne kaust kaob
+cp  - copy/paste. Töötab nagu mv aga jätab originaali alles
+rm dir .– kustutab kausta
+rm  - remove (failide kustutamiseks)
+rm -r - kustutab etteantud kausta ja selles olevad failid
+pwd - annab täispika folderi/file aadressi
+grep – aitab otsida faili sisu 
+cat  – kirjeldab faili sisu
+rm -rf /c vöi rm -rf / - keerad kogu arvuti PEKKI
+
+https://www.hongkiat.com/blog/bizarre-insane-programming-languages/
+https://www.atatus.com/blog/top-10-linux-distros/
+-  oleks hea : Elementary OS
+You can spend more time operating your computer and less time eliminating bloatware by installing Elementary OS, which encloses a brilliant selection of apps that handle everyday necessities. ‌‌
