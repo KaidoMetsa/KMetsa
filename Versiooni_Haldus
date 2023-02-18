@@ -126,19 +126,52 @@ $ ls
 let num =1;
 ```
 
+```
 …or create a new repository on the command line
 echo "# Learngit" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git branch -M main
+git branch -m main
 git remote add origin https://github.com/KaidoMetsa/Learngit.git
 git push -u origin main
-
+```
 …or push an existing repository from the command line
 git remote add origin https://github.com/KaidoMetsa/Learngit.git
 git branch -M main
 git push -u origin main
 git remote add origin https://github.com/KaidoMetsa/Learngit.git
 
-‌‌
+‌‌Bash profile /alias 
+alias la="ls -la"  (või /c/  - igakord kui bash avab jooksutab ta seda scripti 
+control-ä automaatselt kommenteerib peamised kommentaarid automaatselt enamvähem korrektselt 
+alias ll="ls -l"  - jooksutab longlisti formati 
+mõistlik oleks the git fire alias mis jooksutab kohe kõik giti koodid ülesse ja alla jne kui S.O.S
+
+If you run the open ~/.bash_profile command and do not have a current .bash_profile, follow these steps to create one:
+
+
+```
+Open Terminal
+Navigate to your home directory cd ~/
+Create the file touch .bash_profile
+Now you can use open ~/.bash_profile to edit your .bash_profile    code~ vist vaja ette kirjutada
+
+
+```
+
+Git starship uuri googlest phoenix mingi sait  (bash prompts)
+Saab ka värve muuta ANSI sequencid slescapecodes (Bash escape code) PS1="jne jne " kui ei viitsi ise teha siis installi starship
+winget - on windowsi käsureale möeldud starship
+windowsis installimine sakib - aeganõudev
+linuxis tõmbab terminalist kõik alla (app get) package managerid
+(SCOOP ja chocolatey võimaldavad seda ka windowsil Chocolateyl väga palju packageid programmidele (steam jne ) )
+Winget - FiraCode - loading barid jne  nerdfontid / codingfont.com
+code ~/.config/starshio.tml avab starshipi config faili
+starship preset pastel-powerline > ~/.config/starship.toml - muutab otse käsureal faili confi
+
+
+
+
+
+
