@@ -204,13 +204,15 @@ github.com/troxler/awesome-css-frameworks - valik frameworke  - suht lahedad.
 Javascriptil on ka frameworke :
 Coffeescript.org kirjutab ümber pärast javascripti. Saad lühemat koodi kirjutada.
 typescriptlang.org  - proovida ja asjad selgeks teha
-Angular - uusi asju ei soovita siia peale teha kuna see mingi hetk aegub ilmselt.
+Angular.io - uusi asju ei soovita siia peale teha kuna see mingi hetk aegub ilmselt.
 React - hea , selgeks teha , facebooki backitud, htmli ja javascripti saab kokku kirjutada 
 vuejs.org
 uustulnukad:
 Svelte.dev puhast source koodi ei väljasta ja tõlgib selle ümber puhtaks jv scriptiks
 Solidjs.com  Sarnane reactile. väga kiire.
 https://git-scm.com/download/gui/windows
+Deno.land üritab vahetada kohad nodejs iga mingi hetk vist et ta tuvastab puhast typescripti
+bun js sama mis üleval aga arenduses alles .
 
 
 
