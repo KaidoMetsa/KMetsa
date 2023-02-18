@@ -142,6 +142,8 @@ git branch -M main
 git push -u origin main
 git remote add origin https://github.com/KaidoMetsa/Learngit.git
 
+CASE
+
 ‌‌Bash profile /alias 
 alias la="ls -la"  (või /c/  - igakord kui bash avab jooksutab ta seda scripti 
 control-ä automaatselt kommenteerib peamised kommentaarid automaatselt enamvähem korrektselt 
@@ -169,6 +171,48 @@ linuxis tõmbab terminalist kõik alla (app get) package managerid
 Winget - FiraCode - loading barid jne  nerdfontid / codingfont.com
 code ~/.config/starshio.tml avab starshipi config faili
 starship preset pastel-powerline > ~/.config/starship.toml - muutab otse käsureal faili confi
+
+Unixporn - redditis
+
+test.sh on nagu profile aga on vaja jooksutada
+npmjs installitavad npm kasutavad ja toetavad veebiarenduseks. veebidisaini ?
+Java ja Java script on 2 erinevat asja 
+Sass-lang.com css on steroids hea cssi spetsiifiline muutmine. sass css = scss aga veebibrowser ei oska sellega midagi teha .
+et see töötaks siis on vaja eraldi tööriista selleks -  lesscss.org
+stylus-lang.com
+
+nunjacks 
+blade laravel laravel.com php syntaxi toetus ?
+Twig keeled on need eelnevad mis enamasti on htmlile tehtud
+PUG css ja html segu syntax
+eesmärk nendele on see ,et sa pead vähem kirjutama
+
+EMMET - kui peab palju htmli ja css kirjutama teha see  endale selgeks - oleks mõistlik.
+getbootstrap.com - bootstrap on raamistik
+
+awesome list - näide html awesome list googeldada (githubis) ja css frameworks awesome list 
+SAKURA muudab puhta htmli ilusamaks ilma cssita /classless
+purecss.io annab miinimum cssi kujunduse
+.offset classes on klassid mis liiguvad arvuti vaatest mobiili lajast üksteise alla.
+Bulma.io - jv scripti näited
+muicss.com googli disaini document
+tailwindcss.com - erinevad paddingud marginid jne htmlst. pakub komponente ka aga on tasuline . lambid asjad tasuta.
+daisyui.com  komponentide tailwini plugin. saab seadistada . tasuta.
+nostalgic-css.github.io/nes.CSS  pulma stiilis nostalgiline css/pixel
+github.com/troxler/awesome-css-frameworks - valik frameworke  - suht lahedad.
+
+Javascriptil on ka frameworke :
+Coffeescript.org kirjutab ümber pärast javascripti. Saad lühemat koodi kirjutada.
+typescriptlang.org  - proovida ja asjad selgeks teha
+Angular - uusi asju ei soovita siia peale teha kuna see mingi hetk aegub ilmselt.
+React - hea , selgeks teha , facebooki backitud, htmli ja javascripti saab kokku kirjutada 
+vuejs.org
+uustulnukad:
+Svelte.dev puhast source koodi ei väljasta ja tõlgib selle ümber puhtaks jv scriptiks
+Solidjs.com  Sarnane reactile. väga kiire.
+https://git-scm.com/download/gui/windows
+
+
 
 
 
